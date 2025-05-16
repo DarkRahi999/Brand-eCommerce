@@ -1,0 +1,25 @@
+@charset "UTF-8";
+@forward "./sass/index";
+@use "./sass/more/variable" as var;
+
+//I_---------{  google font-family CDN  }---------- //
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+//W_----------{  Author      :   Bisakto-Rahi  }----------- //
+//W_----------{  Create      :   16/05/2025    }----------- //
+//W_----------{  Last Update :   16/05/2025   }------------ //
+
+//G_--------------{  Start Default Style For all  }-------------- //
+
+
+
+//O_--------------{  Start Footer Section Style   }-------------- //
+.footer{
+    width: 90%;
+    margin: 0 auto;
+    color: var.$text-bg;
+    background-color: var.$body-bg;
+    .copyright{
+        font-size: 13px;
+    }
+}
