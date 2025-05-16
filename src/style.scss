@@ -19,6 +19,17 @@
     margin: 0 auto;
     color: var.$text-bg;
     background-color: var.$body-bg;
+    .row-1 h1{
+        color: var.$text-heading;
+        font-family: var.$font-1;
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 18px;
+    }
+    .quick-links{
+        font-size: 14px;
+        line-height: 2;
+    }
     .copyright{
         font-size: 13px;
     }
