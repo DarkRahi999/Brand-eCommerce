@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <div className="footer p-4">
-      <div className="flex flex-col gap-4 md:flex-row mb-20">
+      <div className="flex flex-col gap-4 md:flex-row mb-4 sm:mb-20">
         <div className="row-1 w-fill md:w-1/4">
           <h1>Company Information</h1>
           <ol className="quick-links">
@@ -40,8 +40,8 @@ export default function Footer() {
       <div className='footer-bottom md:flex justify-between'>
         <div className="copyright mb-4 md:mb-0">
             <p>&copy; 2025 NorthStar eCommerce</p>
-            <a href="" className="mr-20 sm:mr-4 hover:text-black hover:underline">Privacy Policy</a> 
-            <a href="" className="hover:text-black hover:underline">Terms & Conditions</a>
+              <a href="" className="mr-20 hover:text-black hover:underline">Privacy Policy</a> 
+              <a href="" className="hover:text-black hover:underline">Terms & Conditions</a>
         </div>
         <div className="footer-conner">
             <img src="/img/footer/payments.png" alt="payments" />
