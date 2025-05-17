@@ -1,8 +1,8 @@
 export default function Footer() {
   return (
     <div className="footer p-4">
-      <div className="flex gap-44 mb-20">
-        <div className="row-1">
+      <div className="flex flex-col gap-4 md:flex-row mb-20">
+        <div className="row-1 w-fill md:w-1/4">
           <h1>Company Information</h1>
           <ol className="quick-links">
             <li><a href="http://" className="hover:text-black hover:underline">About Us</a></li>
@@ -11,7 +11,7 @@ export default function Footer() {
             <li><a href="http://" className="hover:text-black hover:underline">Shop</a></li>
           </ol>
         </div>
-        <div className="row-1">
+        <div className="row-1 w-fill md:w-1/4">
           <h1>Help Links</h1>
           <ol className="quick-links">
             <li><a href="http://" className="hover:text-black hover:underline">Returns</a></li>
@@ -21,7 +21,7 @@ export default function Footer() {
             <li><a href="http://" className="hover:text-black hover:underline">FAQ</a></li>
           </ol>
         </div>
-        <div className="row-1">
+        <div className="row-1 w-fill md:w-1/4">
           <h1>Useful Links</h1>
           <ol className="quick-links">
             <li><a href="http://" className="hover:text-black hover:underline">Special Offers</a></li>
@@ -30,20 +30,21 @@ export default function Footer() {
             <li><a href="http://" className="hover:text-black hover:underline">Terms of use</a></li>
           </ol>
         </div>
-        <div className="row-1">
+        <div className="row-1 w-fill md:w-1/4">
           <h1>Get In The Know</h1>
-          <input type="text" placeholder="Enter Your Email ..."/>
+            <input type="Email" placeholder="Enter Your Email ..." name="email" className="placeholder:italic px-2 py-2 mb-6 w-60 rounded-tr-2xl rounded-br-2xl"/>
+            <hr className="pb-1 text-neutral-400 border-r-2"/>
         </div>
       </div>
-      <hr className="mb-6 mt-2 border-2" />
-      <div className='footer-bottom flex justify-between'>
-        <div className="copyright">
+      <hr className="mb-6 mt-2 rounded-lg" />
+      <div className='footer-bottom md:flex justify-between'>
+        <div className="copyright mb-4 md:mb-0">
             <p>&copy; 2025 NorthStar eCommerce</p>
-            <a href="" className="mr-4 hover:text-black hover:underline">Privacy Policy</a> 
-            <a href="" className=" hover:text-black hover:underline">Terms & Conditions</a>
+            <a href="" className="mr-20 sm:mr-4 hover:text-black hover:underline">Privacy Policy</a> 
+            <a href="" className="hover:text-black hover:underline">Terms & Conditions</a>
         </div>
         <div className="footer-conner">
-            <img src="/img/footer/payments.png" alt="" />
+            <img src="/img/footer/payments.png" alt="payments" />
         </div>
       </div>
     </div>
