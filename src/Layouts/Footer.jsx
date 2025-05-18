@@ -1,5 +1,5 @@
 import Button from "../components/button";
-
+//G_---------------{  Footer section  }---------------_G//
 export default function Footer() {
   return (
     <div className="footer p-4">

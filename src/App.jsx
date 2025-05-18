@@ -1,9 +1,11 @@
 import './CSS/style.css'
+import Homepage from './Page/Home'
 import Footer from './Layouts/Footer'
 function App() {
   return (
     <>
-    <Footer></Footer>
+    <Homepage />
+    <Footer />
     </>
   )
 }
