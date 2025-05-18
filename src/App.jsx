@@ -1,12 +1,10 @@
 import './CSS/style.css'
-import Homepage from './Page/Home'
-import Footer from './Layouts/Footer'
+import ContactPage from './pages/Contact'
 function App() {
   return (
-    <>
-    <Homepage />
-    <Footer />
-    </>
+    <div>
+    <ContactPage />
+    </div>
   )
 }
 export default App

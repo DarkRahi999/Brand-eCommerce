@@ -71,11 +71,19 @@ html {
   text-align: justify;
 }
 
+.MyWeb {
+  width: 90%;
+  margin: 0 auto;
+  color: #555555;
+  background-color: #E8E8E8;
+}
+
 .footer {
   width: 90%;
   margin: 0 auto;
   color: #555555;
   background-color: #E8E8E8;
+  padding-bottom: 0 !important;
 }
 .footer .row-1 h1 {
   color: #1D1D1D;
