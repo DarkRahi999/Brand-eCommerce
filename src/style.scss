@@ -16,8 +16,18 @@
     color: var.$text-bg;
     background-color: var.$body-bg;
 }
+i{
+    font-size: 20px;
+}
 
-
+//O_--------------{  Start Navbar Section Style   }-------------- //
+.navbar{
+    background-color: var.$white;
+    height: 60px;
+    .active{
+        color: rgb(0, 0, 0);
+    }
+}
 //O_--------------{  Start Footer Section Style   }-------------- //
 .footer{
     width: 90%;

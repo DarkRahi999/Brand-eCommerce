@@ -78,6 +78,18 @@ html {
   background-color: #E8E8E8;
 }
 
+i {
+  font-size: 20px;
+}
+
+.navbar {
+  background-color: #ffffff;
+  height: 60px;
+}
+.navbar .active {
+  color: rgb(0, 0, 0);
+}
+
 .footer {
   width: 90%;
   margin: 0 auto;
