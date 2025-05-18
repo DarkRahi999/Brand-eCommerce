@@ -41,11 +41,11 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-  background-color: #ffffff;
+  background-color: #e9ecef;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #000;
+  background-color: #555555;
 }
 
 * {

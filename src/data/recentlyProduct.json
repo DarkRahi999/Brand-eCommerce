@@ -1,0 +1,50 @@
+[
+    {
+        "src"       : "/img/discover/1.png",
+        "title"     : "Plain white Shirt",
+        "price"     : "$29.00",
+        "key"       : 1
+    },
+    {
+        "src"       : "/img/discover/2.png",
+        "title"     : "Denim Jacket",
+        "price"     : "$69.00",
+        "key"       : 2
+    },
+    {
+        "src"       : "/img/discover/3.png",
+        "title"     : "Black Polo Shirt",
+        "price"     : "$49.00",
+        "key"       : 3
+    },
+    {
+        "src"       : "/img/discover/4.png",
+        "title"     : "Blue Sweat Shirt",
+        "price"     : "$79.00",
+        "key"       : 4
+    },
+    {
+        "src"       : "/img/discover/5.png",
+        "title"     : "Blue Plain Shirt",
+        "price"     : "$49.00",
+        "key"       : 5
+    },
+    {
+        "src"       : "/img/discover/6.png",
+        "title"     : "Dark Blue Shirt",
+        "price"     : "$89.00",
+        "key"       : 6
+    },
+    {
+        "src"       : "/img/discover/7.png",
+        "title"     : "Outcast T Shirt",
+        "price"     : "$89.00",
+        "key"       : 7
+    },
+    {
+        "src"       : "/img/discover/8.png",
+        "title"     : "polo plain Shirt",
+        "price"     : "$89.00",
+        "key"       : 8
+    }
+]
