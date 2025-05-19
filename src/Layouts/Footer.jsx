@@ -1,11 +1,12 @@
 import Button from "../components/button";
+import InputEmail from '../components/InputEmail'
 //G_---------------{  Footer section  }---------------_G//
 export default function Footer() {
   return (
     <div className="footer p-4">
       <div className="flex flex-col gap-4 md:flex-row mb-4 sm:mb-20">
         <div className="row-1 w-fill md:w-1/4">
-          <h1>Company Information</h1>
+          {/* <h1>Company Information</h1> */}
           <ol className="quick-links">
             <li><a href="http://" className="hover:text-black hover:underline">About Us</a></li>
             <li><a href="http://" className="hover:text-black hover:underline">Lates Posts</a></li>
@@ -34,11 +35,7 @@ export default function Footer() {
         </div>
         <div className="row-1 w-fill md:w-1/4">
           <h1>Get In The Know</h1>
-            <input type="Email" placeholder="Enter Your Email ..." class="w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none mb-3 focus:ring-2 placeholder:italic focus:ring-blue-500 rounded-tr-2xl rounded-br-2xl" />
-            <hr className="pb-1 text-neutral-400 border-r-2"/>
-            <div className="flex md:justify-end mt-6">
-              <Button input="Send"/>
-            </div>
+            <InputEmail />
         </div>
       </div>
       <hr className="mb-6 mt-2 rounded-lg" />
