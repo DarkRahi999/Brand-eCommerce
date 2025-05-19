@@ -1,0 +1,26 @@
+[
+    {
+        "src"       : "/img/topProduct/1.png",
+        "title"     : "Gray Polo Shirt",
+        "price"     : "$49.00",
+        "key"       : 1
+    },
+    {
+        "src"       : "/img/topProduct/2.png",
+        "title"     : "Red Shirt",
+        "price"     : "$69.00",
+        "key"       : 2
+    },
+    {
+        "src"       : "/img/topProduct/3.png",
+        "title"     : "Red Shirt",
+        "price"     : "$29.00",
+        "key"       : 3
+    },
+    {
+        "src"       : "/img/topProduct/4.png",
+        "title"     : "Pink Casual Shirt",
+        "price"     : "$39.00",
+        "key"       : 4
+    }
+]

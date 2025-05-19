@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Button from './Button'
+import Button from './button'
 const InputEmail = () => {
     const [Email, SetEmail] = useState('');
     let ChangeHandel = (e) =>{
@@ -12,7 +12,7 @@ const InputEmail = () => {
         </div>
             <hr className="pb-1 text-neutral-400 border-r-2"/>
         <div className="flex md:justify-end mt-6">
-          <Button input="Send"/>
+          <Button input="Send" className='px-4 py-1 border bg-slate-500 text-white rounded'/>
         </div>
     </form>
   )

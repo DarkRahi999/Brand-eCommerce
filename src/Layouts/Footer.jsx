@@ -6,7 +6,7 @@ export default function Footer() {
     <div className="footer p-4">
       <div className="flex flex-col gap-4 md:flex-row mb-4 sm:mb-20">
         <div className="row-1 w-fill md:w-1/4">
-          {/* <h1>Company Information</h1> */}
+          <h1>Company Information</h1>
           <ol className="quick-links">
             <li><a href="http://" className="hover:text-black hover:underline">About Us</a></li>
             <li><a href="http://" className="hover:text-black hover:underline">Lates Posts</a></li>

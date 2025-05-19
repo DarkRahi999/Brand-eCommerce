@@ -1,7 +1,7 @@
 const Banner = () => {
   return (
     <div>
-      <img src="/img/home/Hero.png" alt="Banner" />
+      <img src="/img/banner/Hero.png" alt="Banner" />
     </div>
   )
 }

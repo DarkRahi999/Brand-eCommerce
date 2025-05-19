@@ -1,8 +1,9 @@
 //G_---------------{  Button Component  }---------------_G//
-export default function Button({input}) {
+export default function Button({input, className, icon}) {
   return (
     <div>
-      <button className="px-4 py-1 border bg-slate-500 text-white rounded" type="submit">
+      <button className={className} type="submit">
+        {icon}
         {input}
       </button>
     </div>
