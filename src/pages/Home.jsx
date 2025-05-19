@@ -3,9 +3,8 @@ import Banner from "../Layouts/Banner";
 import Footer from '../Layouts/Footer'
 import DataR from '../data/recentlyProduct.json'
 import DataP from '../data/topProduct.json'
-
 import Card from "../components/Card";
-import Button from "../components/button";
+import Button from "../components/Button";
 const HomePage = () => {
   return (
     <div>

@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Button from './button'
+import Button from "./Button";
 const InputEmail = () => {
     const [Email, SetEmail] = useState('');
     let ChangeHandel = (e) =>{

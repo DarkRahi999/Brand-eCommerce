@@ -1,4 +1,3 @@
-import Button from "../components/button";
 import InputEmail from '../components/InputEmail'
 //G_---------------{  Footer section  }---------------_G//
 export default function Footer() {
