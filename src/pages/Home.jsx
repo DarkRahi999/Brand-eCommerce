@@ -6,6 +6,7 @@ import DataP from '../data/topProduct.json'
 import Card from "../components/Card";
 import Button from "../components/Button";
 import Article from "../components/Article";
+import Others from "../components/Others";
 const HomePage = () => {
   return (
     <div>
@@ -18,8 +19,11 @@ const HomePage = () => {
           {DataR.map(({title, src, price, key}) => <Card title={title} src={src} key={key} price={price} />)}
         </div>
       {/* --------{  Support & Other's section  }----------- */}
-        <div className="others py-8">
-
+        <div className="others pt-10 pb-16 lg:pt-16 lg:pb-24 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+          <Others title="FREE SHIPPING" desc="Enjoy free shipping on all orders above $100" icon={ <i className="fa-regular fa-truck-fast fa-2xl"></i> } />
+          <Others title="SUPPORT 24/7" desc="Our support team is there to help you for queries" icon={ <i className="fa-regular fa-headset fa-2xl"></i> } />
+          <Others title="30 DAYS RETURN" desc="Simply return it within  30 days for an exchange" icon={ <i className="fa-2x fa-regular fa-arrow-rotate-left fa-2xl"></i> } />
+          <Others title="100% PAYMENT SECURE" desc="Our payments are secured with256 bit encryption" icon={ <i className="fa-regular fa-fingerprint fa-2xl"></i> } />
         </div>
       {/* --------{  Article section  }----------- */}
         <div className="grid grid-cols-1 md:grid-cols-2 center justify-center gap-4 py-8">
