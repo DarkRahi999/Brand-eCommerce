@@ -5,6 +5,7 @@ import DataR from '../data/recentlyProduct.json'
 import DataP from '../data/topProduct.json'
 import Card from "../components/Card";
 import Button from "../components/Button";
+import Article from "../components/Article";
 const HomePage = () => {
   return (
     <div>
@@ -15,6 +16,11 @@ const HomePage = () => {
         <Heading title='Discover New Arrivals' desc='Recently added shirts!'/>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {DataR.map(({title, src, price, key}) => <Card title={title} src={src} key={key} price={price} />)}
+        </div>
+      {/* --------{  Article section  }----------- */}
+        <div className="flex center justify-center gap-4">
+          <Article title="PEACE OF MIND" desc="A one-stop platform for all your fashion needs, hassle-free. Buy with a peace of mind"/>
+          <Article title="BUY 2 GET 1 FREE" desc="End of season sale. buy any 2 items of your choice and get 1 free"/>
         </div>
       {/* --------{  Top Sellers section  }----------- */}
         <Heading title='Top Sellers' desc='Browse our top-selling products'/>
