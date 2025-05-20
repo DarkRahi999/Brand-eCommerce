@@ -3,10 +3,10 @@ import Footer from '../Layouts/Footer'
 export default function ContactPage() {
   return (
     <div>
-      <div className="MyWeb p-4">
-
       {/* --------{  Landing Img section  }----------- */}
-        <LandingImg />
+        <LandingImg title="CONTACT US" img="/img/contact/contact.jpg" />
+        
+      <div className="MyWeb p-4">
       </div>
 
       {/* --------{  Footer section  }----------- */}

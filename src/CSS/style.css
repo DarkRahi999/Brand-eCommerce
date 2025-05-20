@@ -28,7 +28,7 @@ body {
   font-size: 100%;
   line-height: 1.5;
   color: #555555;
-  background-color: #e9ecef;
+  background-color: #f8f9fa;
   overflow-x: hidden;
 }
 
@@ -75,7 +75,7 @@ html {
   width: 90%;
   margin: 0 auto;
   color: #555555;
-  background-color: #E8E8E8;
+  background-color: #ffffff;
 }
 
 i {
@@ -90,7 +90,6 @@ i {
   width: 90%;
   margin: 0 auto;
   color: #555555;
-  background-color: #E8E8E8;
   padding-bottom: 0 !important;
 }
 .footer .row-1 h1 {
