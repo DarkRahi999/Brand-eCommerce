@@ -82,11 +82,7 @@ i {
   font-size: 20px;
 }
 
-.navbar {
-  background-color: #ffffff;
-  height: 60px;
-}
-.navbar .active {
+.active {
   color: rgb(0, 0, 0);
 }
 

@@ -3,9 +3,8 @@ import HomePage from './pages/Home'
 import ContactPage from './pages/Contact'
 import AboutPage from './pages/About'
 import ErrorPage from './pages/Error'
-import './CSS/style.css'
-import Footer from './Layouts/Footer'
 import Navbar from './Layouts/Navbar'
+import './CSS/style.css'
 function App() {
   return (
     <div>

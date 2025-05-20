@@ -12,7 +12,7 @@ const HomePage = () => {
     <div>
       {/* --------{  Banner section  }----------- */}
       <Banner />
-      <div className="MyWeb p-4">
+      <div className="MyWeb p-4 ">
       {/* --------{  Discover section  }----------- */}
         <Heading title='Discover New Arrivals' desc='Recently added shirts!'/>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
