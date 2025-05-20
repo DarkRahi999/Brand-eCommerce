@@ -13,9 +13,9 @@ const Navbar = () => {
 
         {/* -------------{ Desktop Menu section  }---------------- */}
         <div className="hidden md:flex gap-6 lg:gap-8 font-bold">
-          <NavLink to='/' className='hover:text-red-600 lg:text-lg'>Home</NavLink>
-          <NavLink to='/about' className='hover:text-red-600 lg:text-lg'>About</NavLink>
-          <NavLink to='/contact' className='hover:text-red-600 lg:text-lg'>Contact Us</NavLink>
+          <NavLink to='/' className='hover:text-violet-900 lg:text-lg'>Home</NavLink>
+          <NavLink to='/about' className='hover:text-violet-900 lg:text-lg'>About</NavLink>
+          <NavLink to='/contact' className='hover:text-violet-900 lg:text-lg'>Contact Us</NavLink>
         </div>
 
         {/* -------------{ Cart, Favorite button section  }---------------- */}
@@ -40,9 +40,9 @@ const Navbar = () => {
         {/* -------------{ Mobile Menu Dropdown section  }---------------- */}
       {isOpen && (
         <div className="md:hidden px-6 pb-4 flex flex-col gap-3 font-bold">
-          <NavLink to='/' className='hover:text-red-600' onClick={() => setIsOpen(false)}>Home</NavLink>
-          <NavLink to='/about' className='hover:text-red-600' onClick={() => setIsOpen(false)}>About</NavLink>
-          <NavLink to='/contact' className='hover:text-red-600' onClick={() => setIsOpen(false)}>Contact Us</NavLink>
+          <NavLink to='/' className='hover:text-violet-900' onClick={() => setIsOpen(false)}>Home</NavLink>
+          <NavLink to='/about' className='hover:text-violet-900' onClick={() => setIsOpen(false)}>About</NavLink>
+          <NavLink to='/contact' className='hover:text-violet-900' onClick={() => setIsOpen(false)}>Contact Us</NavLink>
         </div>
       )}
     </div>
